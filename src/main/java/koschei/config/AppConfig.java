@@ -18,5 +18,7 @@ public class AppConfig {
     }
 
     @Bean
-    public static Egg6 getEgg(Needle7 needle7) {return new Egg6(needle7);}
+    public static Egg6 getEgg(Needle7 needle7) {
+        return new Egg6(needle7);
+    }
 }
